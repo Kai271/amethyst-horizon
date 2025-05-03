@@ -303,7 +303,7 @@ window.getMetaData = function(u8arr){
 
 window.creatingRoom = true;
 window.connectedToWRM = false
-window.roomManager = new WebSocket((window.location.protocol.includes("s")?"wss":"ws")+"://woomy-room-manager.glitch.me")
+window.roomManager = new WebSocket((window.location.protocol.includes("s")?"wss":"ws")+"://amethyst-starry-night.glitch.me")
 window.roomManager.onopen = ()=>{
   window.roomManager.binaryType = "arraybuffer"
   window.connectedToWRM = true
